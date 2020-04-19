@@ -1,0 +1,56 @@
+{
+	"name": "protosmasher-executor",
+	"displayName": "protosmasher-execute",
+	"description": "ProtoSmasher Executor",
+	"version": "0.0.1",
+	"publisher": "nexure",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.protosmasherExecute",
+				"title": "ProtoSmasher Execute"
+			}
+		],
+		"configuration": {
+			"title": "ProtoSmasher",
+			"properties": {
+				"protosmasher.injector-dir": {
+					"type": "string",
+					"default": "",
+					"description": "ProtoSmasher's Injector Directory"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/node": "^8.10.25",
+		"tslint": "^5.11.0",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.22"
+	},
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"websocket": "^1.0.28",
+		"websocket-as-promised": "^0.9.0"
+	},
+	"__metadata": {
+		"publisherDisplayName": "nexure"
+	}
+}
