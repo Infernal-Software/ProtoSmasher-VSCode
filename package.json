@@ -2,7 +2,7 @@
 	"name": "protosmasher-executor",
 	"displayName": "protosmasher-execute",
 	"description": "ProtoSmasher Executor",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "nexure",
 	"repository": "https://github.com/Infernal-Software/ProtoSmasher-VSCode",
 	"engines": {
