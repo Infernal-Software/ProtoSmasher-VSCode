@@ -1,2 +1,2 @@
-# Synapse-Execute-Plugin
-This is a synapse plugin for vscode
+# ProtoSmasher-Extension-VSCode
+This is a ProtoSmasher plugin for vscode
