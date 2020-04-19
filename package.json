@@ -4,7 +4,7 @@
 	"description": "ProtoSmasher Executor",
 	"version": "0.0.1",
 	"publisher": "nexure",
-	"repository": "",
+	"repository": "https://github.com/Infernal-Software/ProtoSmasher-VSCode",
 	"engines": {
 		"vscode": "^1.0.0"
 	},

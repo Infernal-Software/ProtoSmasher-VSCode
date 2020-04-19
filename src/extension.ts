@@ -172,9 +172,6 @@ export function activate({ subscriptions }: vscode.ExtensionContext): void {
 
 	wsClient.onMessage.addListener(onWebSocketMessage);
 
-	vscode.window.showInformationMessage("ProtoSmasher Script Executed");
-
-
 	const config = vscode.workspace.getConfiguration()
 	const injectorPath = config.get('protosmasher.injector-dir');
 	if(typeof injectorPath === 'string' && injectorPath.trim() === '') {
